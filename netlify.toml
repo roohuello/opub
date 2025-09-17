@@ -1,0 +1,14 @@
+[build]
+  command = "pnpm build"
+  publish = "dist"
+
+# Environment for Netlify build image
+[build.environment]
+  # Ensure Netlify uses pnpm with required flag
+  PNPM_FLAGS = "--shamefully-hoist"
+  # Use Node.js 20 LTS or later for Nuxt 4
+  NODE_VERSION = "20"
+
+# No additional functions/edge config needed: Nitro auto-detects Netlify.
+# If you later use Edge Functions explicitly, switch Nitro preset via env:
+#   NITRO_PRESET = "netlify_edge"

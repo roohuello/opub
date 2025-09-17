@@ -24,7 +24,7 @@ Your comprehensive training resource for the National Schools Press Conference O
   size: xl
   trailing-icon: i-lucide-arrow-right
   ---
-  Contest Guidelines
+  Get Started
   :::
 
   :::u-button
@@ -33,9 +33,9 @@ Your comprehensive training resource for the National Schools Press Conference O
   color: neutral
   variant: outline
   size: xl
-  to: /team-resources
+  to: /writing-guides/news-articles/speech-news
   ---
-  Team Resources
+  Writing Guides
   :::
 
 #default
